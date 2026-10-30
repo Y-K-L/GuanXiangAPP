@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/workshop/workshop",
+    "pages/puzzle/puzzle",
+    "pages/daily/daily",
+    "pages/collection/collection"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F7F4EC",
+    "navigationBarTitleText": "观象",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F7F4EC"
+  },
+  "tabBar": {
+    "color": "#6B6B6B",
+    "selectedColor": "#8B5E3C",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "学习" },
+      { "pagePath": "pages/daily/daily", "text": "每日" },
+      { "pagePath": "pages/collection/collection", "text": "图鉴" }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
