@@ -1,0 +1,32 @@
+.page { min-height: 100vh; padding: 32rpx; box-sizing: border-box; display: flex; flex-direction: column; }
+.header { display: flex; justify-content: space-between; align-items: center; height: 88rpx; }
+.back { width: 64rpx; font-size: 40rpx; color: #1F1F1F; }
+.title { font-size: 34rpx; font-weight: 600; }
+.reset { font-size: 26rpx; color: #8B5E3C; }
+.hint { font-size: 24rpx; color: #6B6B6B; margin: 16rpx 0 32rpx; }
+
+.hexagram-card {
+  background: #FFFFFF;
+  border-radius: 24rpx;
+  padding: 48rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24rpx;
+  box-shadow: 0 4rpx 24rpx rgba(31,31,31,0.04);
+}
+.line-item { width: 420rpx; height: 24rpx; }
+.line.yang { width: 100%; height: 24rpx; background: #2B2B2B; border-radius: 4rpx; }
+.line.yin { display: flex; align-items: center; width: 100%; height: 24rpx; }
+.yin-part { flex: 1; height: 24rpx; background: #2B2B2B; border-radius: 4rpx; }
+.yin-gap { width: 48rpx; height: 24rpx; }
+
+.info { margin-top: 48rpx; text-align: center; }
+.hexagram-name { font-size: 64rpx; font-weight: 700; color: #8B5E3C; }
+.trigram-pair { font-size: 24rpx; color: #6B6B6B; margin-top: 12rpx; }
+.plain { font-size: 28rpx; color: #3A3A3A; line-height: 1.6; margin-top: 24rpx; padding: 0 16rpx; }
+
+.actions { margin-top: auto; display: flex; gap: 24rpx; padding-bottom: 48rpx; }
+.btn { flex: 1; height: 88rpx; line-height: 88rpx; border-radius: 999rpx; font-size: 30rpx; text-align: center; }
+.btn.primary { background: #8B5E3C; color: #FFFFFF; }
+.btn.ghost { background: transparent; color: #8B5E3C; border: 2rpx solid #8B5E3C; }
