@@ -1,0 +1,37 @@
+<view class="page">
+  <view class="header">
+    <view class="title">观象</view>
+    <view class="badge">已集 {{collectedCount}} 卦</view>
+  </view>
+
+  <view class="progress">
+    <block wx:for="{{dots}}" wx:key="index">
+      <view class="dot {{item ? 'on' : ''}}"></view>
+    </block>
+  </view>
+
+  <view class="card">
+    <view class="card-title">爻线工坊</view>
+    <view class="card-sub">点按爻线，感受阴阳互变</view>
+    <view class="lines-thumb">
+      <view class="thumb-line yang"></view>
+      <view class="thumb-line yin"><view class="p"></view><view class="g"></view><view class="p"></view></view>
+      <view class="thumb-line yang"></view>
+      <view class="thumb-line yin"><view class="p"></view><view class="g"></view><view class="p"></view></view>
+      <view class="thumb-line yang"></view>
+      <view class="thumb-line yin"><view class="p"></view><view class="g"></view><view class="p"></view></view>
+    </view>
+    <button class="btn primary" bindtap="goWorkshop">进入工坊</button>
+  </view>
+
+  <view class="card">
+    <view class="card-title">卦象拼图</view>
+    <view class="card-sub">识别八卦 · 拼出六十四卦</view>
+    <button class="btn secondary" bindtap="goPuzzle">开始拼图</button>
+  </view>
+
+  <view class="card disabled">
+    <view class="card-title">爻位迷宫</view>
+    <view class="card-sub">即将解锁</view>
+  </view>
+</view>
