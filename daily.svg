@@ -1,0 +1,49 @@
+<svg width="375" height="812" viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="s2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#1F1F1F" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect width="375" height="812" fill="#F7F4EC"/>
+
+  <text x="24" y="44" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#6B6B6B">每日一卦 · 10 月 30 日</text>
+
+  <rect x="16" y="64" width="343" height="116" rx="12" fill="#FFFFFF" filter="url(#s2)"/>
+  <text x="32" y="96" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#3A3A3A">你接手了一个全新项目，团队尚未磨合，</text>
+  <text x="32" y="120" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#3A3A3A">资源有限，外界期待却很高。</text>
+  <text x="32" y="150" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#6B6B6B">先判断局面，再读卦。</text>
+
+  <text x="24" y="212" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#1F1F1F">以下哪一卦更贴合这个处境？</text>
+
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <rect x="16" y="232" width="343" height="52" rx="10" fill="#FFFFFF" filter="url(#s2)"/>
+    <text x="40" y="263" font-size="14" fill="#1F1F1F">A</text>
+    <text x="72" y="263" font-size="14" fill="#3A3A3A">乾 · 纯阳开创</text>
+
+    <rect x="16" y="296" width="343" height="52" rx="10" fill="#FFFFFF" filter="url(#s2)"/>
+    <text x="40" y="327" font-size="14" fill="#1F1F1F">B</text>
+    <text x="72" y="327" font-size="14" fill="#3A3A3A">屯 · 初生之难</text>
+
+    <rect x="16" y="360" width="343" height="52" rx="10" fill="#FFFFFF" filter="url(#s2)"/>
+    <text x="40" y="391" font-size="14" fill="#1F1F1F">C</text>
+    <text x="72" y="391" font-size="14" fill="#3A3A3A">既济 · 已完成</text>
+
+    <rect x="16" y="424" width="343" height="52" rx="10" fill="#FFFFFF" filter="url(#s2)"/>
+    <text x="40" y="455" font-size="14" fill="#1F1F1F">D</text>
+    <text x="72" y="455" font-size="14" fill="#3A3A3A">明夷 · 光明受伤</text>
+  </g>
+
+  <rect x="16" y="496" width="343" height="160" rx="12" fill="#EFE9DC"/>
+  <text x="32" y="526" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#8B5E3C">正确：屯 ䷂</text>
+  <text x="32" y="552" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#3A3A3A">上坎 ☵ 水，下震 ☳ 雷，水在雷上。</text>
+  <text x="32" y="576" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#3A3A3A">象征初生之难：有生机，但根基未稳。</text>
+  <text x="32" y="600" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#3A3A3A">宜稳住根基、寻找帮手，不宜急于扩张。</text>
+  <text x="32" y="628" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#6B6B6B">乾偏开创，既济偏完成，明夷偏受伤。</text>
+
+  <rect x="16" y="704" width="164" height="44" rx="22" fill="none" stroke="#8B5E3C" stroke-width="2"/>
+  <text x="98" y="731" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#8B5E3C">收藏象卡</text>
+
+  <rect x="195" y="704" width="164" height="44" rx="22" fill="#8B5E3C"/>
+  <text x="277" y="731" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF">分享</text>
+</svg>
