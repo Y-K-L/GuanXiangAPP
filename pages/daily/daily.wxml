@@ -1,0 +1,29 @@
+<view class="page">
+  <view class="date">{{daily.id}} · 每日一卦</view>
+
+  <view class="scenario">{{daily.scenario}}</view>
+
+  <view class="question">{{daily.question}}</view>
+
+  <view class="options">
+    <block wx:for="{{daily.options}}" wx:key="id">
+      <view
+        class="option {{selected === item.id ? 'selected' : ''}} {{submitted && item.id === daily.answer ? 'correct' : ''}} {{submitted && selected === item.id && item.id !== daily.answer ? 'wrong' : ''}}"
+        data-id="{{item.id}}"
+        bindtap="select"
+      >
+        <view class="option-text">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+
+  <view wx:if="{{submitted}}" class="explain">
+    <view class="explain-title">{{correct ? '✓ 判断正确' : '✗ 再想想'}}</view>
+    <view class="explain-body">{{daily.explanation}}</view>
+  </view>
+
+  <view class="actions">
+    <button wx:if="{{!submitted}}" class="btn primary" bindtap="submit">提交</button>
+    <button wx:if="{{submitted}}" class="btn ghost" bindtap="save">收藏象卡</button>
+  </view>
+</view>
