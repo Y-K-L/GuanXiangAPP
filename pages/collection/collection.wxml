@@ -1,0 +1,26 @@
+<view class="page">
+  <view class="header">
+    <view class="title">卦象图鉴</view>
+    <view class="count">已收 {{collectedCount}} / 64</view>
+  </view>
+
+  <view class="section-label">八卦</view>
+  <view class="trigram-grid">
+    <block wx:for="{{trigrams}}" wx:key="id">
+      <view class="trigram-card">
+        <view class="trigram-symbol">{{item.symbol}}</view>
+        <view class="trigram-name">{{item.name}} · {{item.nature}}</view>
+      </view>
+    </block>
+  </view>
+
+  <view class="section-label">六十四卦</view>
+  <view class="hex-grid">
+    <block wx:for="{{hexagrams}}" wx:key="id">
+      <view class="hex-card {{item.unlocked ? 'on' : 'off'}}">
+        <view class="hex-name">{{item.unlocked ? item.name : '??'}}</view>
+        <view class="hex-full">{{item.unlocked ? item.fullName : '未解锁'}}</view>
+      </view>
+    </block>
+  </view>
+</view>
