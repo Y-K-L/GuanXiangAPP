@@ -1,0 +1,44 @@
+.page { min-height: 100vh; padding: 32rpx; box-sizing: border-box; display: flex; flex-direction: column; }
+.prompt { font-size: 34rpx; font-weight: 600; margin-bottom: 32rpx; }
+
+.slots { display: flex; flex-direction: column; gap: 16rpx; margin-bottom: 32rpx; }
+.slot {
+  background: #FFFFFF;
+  border: 2rpx dashed #C9BFAE;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slot.focus { border-color: #8B5E3C; }
+.slot.filled { border-style: solid; border-color: #8B5E3C; background: #FAF5EE; }
+.slot-label { font-size: 24rpx; color: #6B6B6B; }
+.slot-value { font-size: 28rpx; color: #1F1F1F; }
+
+.palette { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16rpx; }
+.tile {
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  padding: 24rpx 0;
+  text-align: center;
+  box-shadow: 0 4rpx 24rpx rgba(31,31,31,0.04);
+}
+.tile.selected { border: 2rpx solid #8B5E3C; background: #FAF5EE; }
+.tile-symbol { font-size: 40rpx; color: #2B2B2B; }
+.tile-name { font-size: 22rpx; color: #6B6B6B; margin-top: 4rpx; }
+
+.result {
+  margin-top: 32rpx;
+  padding: 24rpx;
+  border-radius: 16rpx;
+  background: #EFE9DC;
+}
+.result.ok { background: #E4EFE6; }
+.result.no { background: #F1E3E0; }
+.result-title { font-size: 30rpx; font-weight: 600; margin-bottom: 8rpx; }
+.result-expl { font-size: 26rpx; color: #3A3A3A; line-height: 1.6; }
+
+.actions { margin-top: auto; padding-bottom: 48rpx; }
+.btn { height: 88rpx; line-height: 88rpx; border-radius: 999rpx; font-size: 30rpx; text-align: center; }
+.btn.primary { background: #8B5E3C; color: #FFFFFF; }
